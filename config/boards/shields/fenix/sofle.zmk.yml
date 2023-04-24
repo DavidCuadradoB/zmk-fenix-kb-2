@@ -1,8 +1,8 @@
 file_format: "1"
-id: fenix
-name: fenix
+id: sofle
+name: Sofle
 type: shield
-url: https://github.com/DavidCuadradoB/zmk-fenix-kb
+url: https://github.com/josefadamcik/SofleKeyboard
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
@@ -10,5 +10,5 @@ features:
   - display
   - encoder
 siblings:
-  - fenix_left
-  - fenix_right
+  - sofle_left
+  - sofle_right

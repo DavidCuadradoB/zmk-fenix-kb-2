@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2023 David Cuadrado
+ * Copyright (c) 2020 Ryan Cross
  *
  * SPDX-License-Identifier: MIT
  */
 
-#include "fenix.dtsi"
+#include "sofle.dtsi"
 
 &default_transform {
 	col-offset = <6>;
@@ -19,4 +19,8 @@
 		, <&pro_micro 18 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 19 GPIO_ACTIVE_HIGH>
 		;
+};
+
+&right_encoder {
+	status = "okay";
 };

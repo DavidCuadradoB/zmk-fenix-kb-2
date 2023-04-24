@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2023 David Cuadrado
+ * Copyright (c) 2020 Ryan Cross
  *
  * SPDX-License-Identifier: MIT
  */
 
-#include "fenix.dtsi"
+#include "sofle.dtsi"
 
 &kscan0 {
 	col-gpios
@@ -15,4 +15,8 @@
 		, <&pro_micro 16 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 10 GPIO_ACTIVE_HIGH>
 		;
+};
+
+&left_encoder {
+	status = "okay";
 };
