@@ -1,0 +1,14 @@
+file_format: "1"
+id: fenix
+name: fenix
+type: shield
+url: https://github.com/DavidCuadradoB/zmk-fenix-kb
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - fenix_left
+  - fenix_right

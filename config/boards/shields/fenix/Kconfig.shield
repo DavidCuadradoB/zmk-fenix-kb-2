@@ -1,0 +1,8 @@
+# Copyright (c) 2023 David Cuadrado
+# SPDX-License-Identifier: MIT
+
+config SHIELD_FENIX_LEFT
+	def_bool $(shields_list_contains,fenix_left)
+
+config SHIELD_FENIX_RIGHT
+	def_bool $(shields_list_contains,fenix_right)
